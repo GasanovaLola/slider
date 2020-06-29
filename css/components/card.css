@@ -1,0 +1,31 @@
+.img-card {
+	height: 300px;
+	width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.card {
+	padding: 25px;
+	border: 1px solid #CCC;
+}
+.title-card {
+	font-size: 22px;
+	color: #333;
+}
+.description-card {
+	font-size: 18px;
+	line-height: 22px;
+	color: #666;
+	max-width: 500px;
+}
+.card:hover {
+	padding: 25px;
+	border: 1px solid #0099FF;
+}
+
+hr {
+	width: 300px;
+	text-align: center;
+	color: #0099FF;
+	height: 1px;
+}

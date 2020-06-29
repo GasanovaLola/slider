@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<main class="main-bx">
+  <div class="slider">
+    <div class="card-bx">
+      <div class="card-img"> 
+        <img src="https://cdn.pixabay.com/photo/2018/01/03/17/05/palm-trees-3058728__340.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-bx">
+      <div class="card-img"> 
+        <img src="https://cdn.pixabay.com/photo/2019/08/06/12/15/panama-4388225__340.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-bx">
+      <div class="card-img"> 
+        <img src="https://cdn.pixabay.com/photo/2016/11/19/15/38/beach-1839922__340.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-bx">
+      <div class="card-img"> 
+        <img src="https://cdn.pixabay.com/photo/2016/03/28/09/33/island-1285147__340.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-bx">
+      <div class="card-img"> 
+        <img src="https://cdn.pixabay.com/photo/2016/02/19/11/06/musha-cay-1209567__340.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-bx">
+      <div class="card-img"> 
+        <img src="https://cdn.pixabay.com/photo/2015/03/17/14/05/plants-677783__340.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+<ul class="bxslider">
+  <li class="card-img"><img src="https://cdn.pixabay.com/photo/2016/12/15/23/22/dominican-republic-1910262__340.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, hic." /></li>
+  <li class="card-img"><img src="https://cdn.pixabay.com/photo/2015/03/17/14/05/plants-677783__340.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, hic."/></li>
+  <li class="card-img"><img src="https://cdn.pixabay.com/photo/2016/02/19/11/06/musha-cay-1209567__340.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, hic." /></li>
+  <li class="card-img"><img src="https://cdn.pixabay.com/photo/2016/12/15/23/22/dominican-republic-1910262__340.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, hic." /></li>
+  <li class="card-img"><img src="https://cdn.pixabay.com/photo/2015/03/17/14/05/plants-677783__340.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, hic." /></li>
+</ul>
+
+
+
+</main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+
+    $(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 600
+  });
+});
+  </script>
+</body>
+</html>

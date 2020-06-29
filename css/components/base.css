@@ -1,0 +1,59 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #ffffff;
+    line-height: 18px;
+    color: black;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: inline-block;
+  }
+  
+  a {
+    color: #ff1744;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+  
+  p,
+  ul,
+  ol,
+  figure {
+    margin: 0 0 16px 0;
+  }
+  
+  * + p,
+  * + ul,
+  * + ol * + figure {
+    margin-top: 16px;
+  }
+  
+  
+  .header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }

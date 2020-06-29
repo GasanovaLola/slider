@@ -1,0 +1,15 @@
+.nav-owl .owl-dot span {
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 10px;
+	display: block;
+	margin: 0 5px;
+}
+.owl-dots {
+	text-align: center;
+	margin: 10px 0;
+}
+.owl-img img {
+	height: 100%;
+}

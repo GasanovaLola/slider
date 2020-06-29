@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="is-active">
+              <a href="slick.html">
+                <p>bxSlider</p>
+              </a>
+            </li>
+            <li>
+              <a href="slider.html">
+                <p>Swiper</p>
+              </a>
+            </li>
+            <li>
+              <a href="owl.html">
+                <p>Owl</p>
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="navbar-toggle">
+            <span></span>
+          </a>
+          <ul class="navbar-nav-mobile">
+            <li class="close">
+              <a href="#">
+                Close
+              </a>
+            </li>
+            <li class="is-active">
+              <a href="slick.html">
+                <p>bxSlider</p>
+              </a>
+            </li>
+            <li>
+              <a href="slider.html">
+                <p>Swiper</p>
+              </a>
+            </li>
+            <li>
+              <a href="owl.html">
+                <p>Owl</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      const toggle = document.getElementsByClassName("navbar-toggle");
+
+toggle[0].addEventListener("click", function(event) {
+  event.preventDefault();
+  this.classList.toggle("is-active");
+});
+
+const closeNavbarMobile = document.getElementsByClassName("close");
+
+closeNavbarMobile[0].addEventListener("click", function(event) {
+  event.preventDefault();
+  toggle[0].classList.remove("is-active");
+});
+    </script>
+  </body>
+</html>
